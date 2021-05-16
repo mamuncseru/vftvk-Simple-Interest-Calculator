@@ -6,6 +6,7 @@ function compute()
 
     if (principal <= 0) {
         alert("Enter a positive number");
+        document.getElementById("principal").focus();
     } else {
 
         var interest = principal * years * rate / 100;
